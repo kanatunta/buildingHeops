@@ -21,3 +21,9 @@ Print the number of full columns for N
 Constraints
 1 <= N <= 2^50^
 ```
+
+### to run 
+
+```
+npm start
+```

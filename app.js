@@ -2,7 +2,7 @@
 //To run type in terminal
 //npm start
 
-const testValue =22; // set test value of n, number of bricks
+const testValue =56; // set test value of n, number of bricks
 
 let bricks = testValue;
 
@@ -50,8 +50,8 @@ function beautifyResults(arr) {
 
   for (const row of arr) {
     let temp = "";
-    for (const col of row) {
-      temp += col;
+    for (const cell of row) {
+      temp += cell;
     }
     result = temp + "\n" + result;
   }

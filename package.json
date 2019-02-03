@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "description": "Telerick Pyramid problem : easy",
   "main": "app.js",
+  "jest": {
+    "testEnvironment": "node"
+  },
   "scripts": {
-    "start": "node app"
+    "start": "node app",
+    "test": "jest --notify"
   },
   "keywords": [
     "areays",
     "matrix"
   ],
   "author": "kanatunta@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^24.0.0"
+  }
 }
